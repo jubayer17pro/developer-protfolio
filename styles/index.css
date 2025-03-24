@@ -10,20 +10,28 @@ body {
 }
 
 .btn-primary {
-  width: 150px;
-  height: 64px;
+  /* width: 150px;
+  height: 64px; */
   border-radius: 5px;
   background: #fd6e0a;
+  border: 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  padding: 15px 35px;
 }
 
 /* nav related styles */
 
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav > ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
